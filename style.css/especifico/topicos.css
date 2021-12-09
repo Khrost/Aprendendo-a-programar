@@ -7,3 +7,16 @@
     background-color: var(--background-color-hover-secundary);
     border: 1px solid var(--border-color-primary);
 }
+
+.topico h3,
+p{
+    margin: 0;
+}
+
+.topico .data{
+    display: block;
+    font-size: 0.8em;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: right;
+}

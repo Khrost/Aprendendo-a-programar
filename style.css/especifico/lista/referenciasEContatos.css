@@ -1,0 +1,13 @@
+.conteudo .contato ul li{
+    color: var(--link-color);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.conteudo .contato ul{
+    list-style: none;
+}
+
+.conteudo .referencia ul{
+    list-style: none;
+}

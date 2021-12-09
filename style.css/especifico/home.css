@@ -1,0 +1,15 @@
+.conteudo h1{
+    border-bottom: 2px solid var(--border-color-primary);
+    font-size: 2.3em;
+    margin-bottom: var(--size-space-two);
+}
+
+.conteudo h2{
+    border-bottom: 1px solid var(--border-color-primary);
+    font-size: 1.8em;
+    margin-bottom: var(--size-space-one);
+}
+
+.conteudo h3{
+    font-size: 1.3em;
+}

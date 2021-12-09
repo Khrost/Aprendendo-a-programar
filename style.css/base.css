@@ -60,7 +60,7 @@ body{
     display: none;
     position: absolute;
     left: 0;
-    width: 160px;
+    width: 180px; /*padding de 10px a esquerda e direita*/
 }
 
 .menu ul li:hover ul{
@@ -75,29 +75,6 @@ body{
 .conteudo{
     margin-top: var(--size-space-three);
     margin-left: var(--size-space-three);
-    width: 60%;
-}
-
-.conteudo h1{
-    border-bottom: 2px solid var(--border-color-primary);
-    font-size: 2.3em;
     margin-bottom: var(--size-space-two);
-}
-
-.conteudo h2{
-    border-bottom: 1px solid var(--border-color-primary);
-    font-size: 1.8em;
-    margin-bottom: var(--size-space-one);
-}
-
-.conteudo h3{
-    font-size: 1.3em;
-}
-
-.data{
-    display: block;
-    font-size: 0.8em;
-    font-style: italic;
-    text-decoration: underline;
-    text-align: right;
+    width: 60%;
 }
