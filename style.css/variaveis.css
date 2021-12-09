@@ -1,0 +1,31 @@
+:root{
+    /*font colors*/
+    --text-color-primary: black;
+    --text-color-secundary: white;
+
+    /*background-colors*/
+    --background-color-primary:white;
+    --background-color-secundary: rgb(47, 47, 47);
+
+    /*:hover*/
+    --background-color-hover-primary: rgb(16, 102, 82);
+    --background-color-hover-secundary: rgb(136, 190, 240);
+    --text-color-hover-pramary:white;
+    --text-color-hover-secundary: black;
+
+    /*color links*/
+    --link-color: rgb(56, 38, 105);
+    --link-color-hover: rgb(113, 106, 134);
+    
+    /*border colors*/
+    --border-color-primary: black;
+    --border-color-secundary: white;
+
+    /*font size*/
+    --font-size-primary: 20px;
+
+    /*size space*/
+    --size-space-one: 10px;
+    --size-space-two: 30px;
+    --size-space-three: 50px;
+}

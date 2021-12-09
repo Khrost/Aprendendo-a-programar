@@ -1,0 +1,9 @@
+.topico{
+    padding: var(--size-space-one);
+    margin-bottom: var(--size-space-one);
+}
+
+.topico:hover{
+    background-color: var(--background-color-hover-secundary);
+    border: 1px solid var(--border-color-primary);
+}
