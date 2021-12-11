@@ -12,10 +12,10 @@
     --background-color-hover-secundary: rgb(136, 190, 240);
     --text-color-hover-pramary:white;
     --text-color-hover-secundary: black;
+    --link-color-hover: rgb(113, 106, 134);
 
     /*color links*/
     --link-color: rgb(56, 38, 105);
-    --link-color-hover: rgb(113, 106, 134);
     
     /*border colors*/
     --border-color-primary: black;

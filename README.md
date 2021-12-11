@@ -11,3 +11,7 @@ Os primeiros elementos do site adicionados foram:
 * Menu: para nagevar sobre o site;
 * Página "inicial": mostra o que há de novo no site;
 * Página "sobre": alguns dados pessoais e formas de contato;
+
+## Atividades
+A opção atividades, do menu, exibirá a lista de atividades feitas em determinada
+instituição de ensino.
