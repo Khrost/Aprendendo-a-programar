@@ -19,56 +19,55 @@ body{
     height: 70px;
 }
 
+/********** logo **********/
 .campo-inicial img{
+    margin-bottom: var(--size-space-one);
     width: 250px;
 }
 
-/*********** MENU **********/
-.menu ul{
+/********** MENU **********/
+/*elements*/
+.btnMenu{
+    border: none;
     background-color: var(--background-color-secundary);
-    width:98vw;
-}
-
-.menu ul{
-    list-style: none;
-    padding: 0;
-}
-
-.menu ul li{
-    position: relative;
-    display: inline;
-}
-
-.menu ul li a{
-    display: inline-block;
     color: var(--text-color-secundary);
-    padding: var(--size-space-one);
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    width: 140px;
+    height: 40px;
 }
 
-.menu ul li a{
-    text-decoration: none;
-    text-align: center;
-    width: 160px;
-}
-
-.menu ul li a:hover{
+.btnMenu:hover{
     background-color: var(--background-color-hover-primary);
 }
 
-/*submenus*/
+/*config*/
+.menu{
+    background-color: var(--background-color-secundary);
+}
+
+.menu ul{
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li{
+    display: inline;
+    position: relative;
+}
+
+.menu ul li button{
+    display: inline-block;
+}
+
 .menu ul ul{
     display: none;
     position: absolute;
+}
+
+.menu ul li:hover ul {
+    display: block;
     left: 0;
-    width: 180px; /*padding de 10px a esquerda e direita*/
-}
-
-.menu ul li:hover ul{
-    display: block;
-}
-
-.menu ul ul li a{
-    display: block;
 }
 
 /********** CONTEUDO **********/

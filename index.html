@@ -17,33 +17,33 @@
             </div>
             <nav class="menu">
                 <ul>
-                    <li><a href="./index.html">Inicio</a></li>
+                    <li><button class="btnMenu" onclick="btnPInicio()">Inicio</button></li>
                     <li>
-                        <a href="#">Atividades</a>
+                        <button class="btnMenu">Projetos</button>
                         <ul>
-                            <li><a href="#">Cursos</a></li>
-                            <li><a href="#">Imersões</a></li>
-                            <li><a href="./pages/atividadesUniversidades.html">Universidade</a></li>
+                            <button class="btnMenu" onclick="btnPCursos()">Cursos</button>
+                            <button class="btnMenu" onclick="btnPImersoes()">Imersões</button>
+                            <button class="btnMenu" onclick="btnPUniversidades()">Universidades</button>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Desenvolvimento</a>
+                        <button class="btnMenu">Desenvolvendo</button>
                         <ul>
-                            <li><a href="#">Aplicativos</a></li>
-                            <li><a href="#">Jogos</a></li>
-                            <li><a href="#">Sites</a></li>
+                            <button class="btnMenu" onclick="btnPListApps()">Aplicativos</button>
+                            <button class="btnMenu" onclick="btnPListJogos()">Jogos</button>
+                            <button class="btnMenu" onclick="btnPListSites()">Sites</button>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Entretenimento</a>
+                        <button class="btnMenu">Entretenimento</button>
                         <ul>
-                            <li><a href="#">Animes</a></li>
-                            <li><a href="#">Filmes</a></li>
-                            <li><a href="#">Jogos</a></li>
-                            <li><a href="#">Series</a></li>
+                            <button class="btnMenu" onclick="btnPListAnimes()">Animes</button>
+                            <button class="btnMenu" onclick="btnPListFilmes()">Filmes</button>
+                            <button class="btnMenu" onclick="btnPListJogos()">Jogos</button>
+                            <button class="btnMenu" onclick="btnPListSeries()">Series</button>
                         </ul>
                     </li>
-                    <li><a href="./pages/sobre.html">Sobre</a></li>
+                    <li><button class="btnMenu" onclick="btnPSobre()">Sobre</button></li>
                 </ul>
             </nav>
         </header>
@@ -72,5 +72,6 @@
                 </p>
             </div>
         </div>
+        <script src="scripts/redirecionamentoModIndex.js"></script>
     </body>
 </html>
