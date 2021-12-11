@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css/variaveis.css">
+    <link rel="stylesheet" href="../style.css/base.css">
+
+    <link rel="stylesheet" href="../style.css/especifico/topicos/acessTopicosNvl3.css">
+    <title>Atividades da Universidade</title>
+</head>
+<body>
+    <header class="principal">
+        <div class="campo-inicial">
+            <img src="../image/logo.png" alt="Nome Khrost Kont">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><button class="btnMenu" onclick="btnPInicio()">Inicio</button></li>
+                <li>
+                    <button class="btnMenu">Projetos</button>
+                    <ul>
+                        <button class="btnMenu" onclick="btnPCursos()">Cursos</button>
+                        <button class="btnMenu" onclick="btnPImersoes()">Imersões</button>
+                        <button class="btnMenu" onclick="btnPUniversidades()">Universidades</button>
+                    </ul>
+                </li>
+                <li>
+                    <button class="btnMenu">Desenvolvendo</button>
+                    <ul>
+                        <button class="btnMenu" onclick="btnPListApps()">Aplicativos</button>
+                        <button class="btnMenu" onclick="btnPListJogos()">Jogos</button>
+                        <button class="btnMenu" onclick="btnPListSites()">Sites</button>
+                    </ul>
+                </li>
+                <li>
+                    <button class="btnMenu">Entretenimento</button>
+                    <ul>
+                        <button class="btnMenu" onclick="btnPListAnimes()">Animes</button>
+                        <button class="btnMenu" onclick="btnPListFilmes()">Filmes</button>
+                        <button class="btnMenu" onclick="btnPListJogos()">Jogos</button>
+                        <button class="btnMenu" onclick="btnPListSeries()">Series</button>
+                    </ul>
+                </li>
+                <li><button class="btnMenu" onclick="btnPSobre()">Sobre</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="conteudo">
+        <ul class="camp-nvl1">
+            <li id="topic" class="topic-nvl1">
+                Alura Cursos
+                <ul class="camp-nvl2">
+                    <li id="topic" class="topic-nvl2">
+                        Dev
+                        <ul class="camp-nvl3">
+                            <button id="topic" class="topic-nvl3">
+                                Nenhum arquivo/projeto no momento
+                            </button>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script src="../scripts/redirecionamento.js"></script>
+</body>
+</html>
