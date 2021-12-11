@@ -1,0 +1,54 @@
+/*elements*/
+#topic{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding-top: var(--size-space-one);
+    padding-bottom: var(--size-space-one);
+}
+
+/*config*/
+.conteudo ul{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+}
+
+.conteudo ul li {
+    padding-top: var(--size-space-one);
+    padding-bottom: var(--size-space-one);
+}
+
+.conteudo .topic-nvl1{
+    border: 1px solid var(--border-color-primary);
+    background-color: var(--background-color-primary);
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: var(--size-space-one);
+    width: 100%;
+}
+
+.conteudo .camp-nvl2{
+    display: none;
+    margin-top: var(--size-space-one);
+    margin-left: 5%;
+    width: 90%;
+}
+
+.conteudo .topic-nvl2{
+    display: block;
+    width: 100%;
+    margin-bottom: var(--size-space-one);
+}
+
+.conteudo .topic-nvl1:hover .camp-nvl2{
+    display: block;
+}
+
+.conteudo .camp-nvl1 .camp-nvl2 .topic-nvl2{
+    border: 1px solid var(--border-color-primary);
+}
+
+.conteudo .camp-nvl1 .camp-nvl2 .topic-nvl2:hover{
+    background-color: var(--background-color-hover-secundary);
+}

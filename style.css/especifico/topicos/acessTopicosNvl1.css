@@ -1,0 +1,26 @@
+/*elements*/
+#topic{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding-top: var(--size-space-one);
+    padding-bottom: var(--size-space-one);
+}
+
+/*config*/
+.conteudo ul{
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo .topic-nvl1{
+    border: 1px solid var(--border-color-primary);
+    background-color: var(--background-color-primary);
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: var(--size-space-one);
+    width: 100%;
+}
+
+.conteudo .topic-nvl1:hover{
+    background-color: var(--background-color-hover-secundary);
+}

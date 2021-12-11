@@ -12,6 +12,7 @@ body{
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: var(--size-space-one);
+    z-index: 2;
 }
 
 .principal .campo-inicial{
