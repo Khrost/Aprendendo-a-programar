@@ -78,3 +78,17 @@ body{
     margin-bottom: var(--size-space-two);
     width: 60%;
 }
+
+/********** RESOLUÇÕES **********/
+@media(max-width:900px){
+    .conteudo{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media(max-width:360px){
+    body{
+        font-size: 16px;
+    }
+}
